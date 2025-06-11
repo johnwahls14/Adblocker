@@ -1,3 +1,6 @@
+// Adblocker.js
+// This code was made with AI, so it may not be correct. If so, make an issue. Issues will be appreciated!!!
+// WARNING: IF YOU WOULD LIKE TO COPY THIS CODE, PLEASE MAKE A PULL REQUEST. NO  ONE MAY COPY, SKID, OR PLAGARIZE ANY PART OF THIS CODE WITHOUT EXPLICIT PERMISSION FROM ME, johnwahls14. 
 (function removeAds() {
     const adSelectors = [
         '[id^="ad-"]',
@@ -28,5 +31,5 @@
     // Re-run every 2 seconds to catch dynamically loaded ads
     setInterval(blockAds, 2000);
 
-    console.log("Basic JS ad blocker running...");
+    console.log("Adblocker.js running...");
 })();
